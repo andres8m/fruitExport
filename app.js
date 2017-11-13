@@ -1,4 +1,4 @@
-var app = angular.module('materializeApp', ['ui.materialize'])
+var scotchApp = angular.module('scotchApp', ['ui.materialize'])
 
     .controller('BodyController', ["$scope","$http","$timeout","$window", function ($scope, $http, $timeout,$window)
     {
